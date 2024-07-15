@@ -6,7 +6,7 @@ function Navbar() {
     <div className='container-fluid text-center navbar-bg px-5 py-3 shadow'>
       <nav className='row'>
         <a href='#' className='col-3 d-flex'>
-          <i class="bi bi-cup-hot"></i>
+          <i className="bi bi-cup-hot"></i>
           <h3 className='fuente-principal fs-5'>Espressso Armonía</h3>
         </a>
 
