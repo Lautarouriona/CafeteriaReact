@@ -1,14 +1,21 @@
 import React from 'react';
-import Menu from './Menu';
+import Menu from './ContenidosMainContent/Menu';
+import Mapa from './ContenidosMainContent/Mapa';
+import Presentacion from './ContenidosMainContent/Presentacion';
+
+
 
 
 function MainContent() {
   return (
     <>
-    
-      <h2>Quienes somos? abrimos esta cafeteria xq nos fue mal programando xd</h2>
+
+      <h1 >Esspresso Armonia</h1>
+      <h2>Hacé tu día con nuestras especialidades</h2>
+      <Presentacion/>
       <Menu/>
-      <p>mapa</p>
+      <Mapa/>
+      
     </>
   );
 }
