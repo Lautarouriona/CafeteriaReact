@@ -1,0 +1,12 @@
+nav h3 {
+    color: var(--marronClaro);
+}
+
+nav .link-navbar {
+    color: var(--marronOscuro);
+    margin-left: 32px;
+}
+
+nav .link-navbar:first-child {
+    margin-left: 0;
+}

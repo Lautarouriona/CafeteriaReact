@@ -6,12 +6,11 @@ import Presentacion from './ContenidosMainContent/Presentacion';
 
 
 
+
 function MainContent() {
   return (
     <>
-
-      <h1 >Esspresso Armonia</h1>
-      <h2>Hacé tu día con nuestras especialidades</h2>
+    
       <Presentacion/>
       <Menu/>
       <Mapa/>
