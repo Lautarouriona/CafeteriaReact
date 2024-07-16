@@ -1,0 +1,50 @@
+.container.text-center .row {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+
+.container.text-center .col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 70px;
+    max-width: 185px;
+    padding: 10px;
+    border-radius: 50%;
+    transition: all .1s;
+    cursor: pointer;
+}
+
+/* Color del primer icono */
+.container.text-center .col:nth-child(1){
+    background-color: #4e2f13;
+    color: #a3a3a3;
+}
+.container.text-center .col:nth-child(1):hover {
+    background: #6b3a11;
+}
+
+/* Color del segundo icono */
+.container.text-center .col:nth-child(2){
+    background-color: #89D3E3;
+}
+.container.text-center .col:nth-child(2):hover {
+    background: #68c3df;
+}
+
+/* Color del tercer icono */
+.container.text-center .col:nth-child(3){
+    background-color: #ee9f54;
+}
+.container.text-center .col:nth-child(3):hover {
+    background: #ee8c31;
+}
+
+
+.img-text {
+    font-size: 18px;
+}
+

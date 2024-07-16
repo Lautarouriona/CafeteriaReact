@@ -1,6 +1,6 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import './stylesPresentacion.css'
+import '../../styles/Presentacion.css'
 
 
 export default function Presentacion() {
