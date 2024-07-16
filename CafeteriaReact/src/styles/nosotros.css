@@ -1,0 +1,11 @@
+.contenedor-img-nosotros {
+    height: 608px;
+}
+
+.contenedor-img-nosotros img {
+    height: 100%;
+}
+
+.descripcion-nosotros {
+    font-size: 18px;
+}

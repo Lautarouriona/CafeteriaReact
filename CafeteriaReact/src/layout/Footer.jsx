@@ -2,9 +2,9 @@ import React from 'react';
 
 function Footer() {
   return (
-    <>
-    contacto: Yo
-    </>
+    <div>
+      contacto: Yo
+    </div>
   );
 }
 
