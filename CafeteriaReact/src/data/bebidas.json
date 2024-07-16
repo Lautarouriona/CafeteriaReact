@@ -1,0 +1,98 @@
+[
+    {
+        "title": "Mocha",
+        "description": "Los amantes del chocolate se enamorarán del moca. El moca es una bebida de chocolate expreso con leche al vapor y espuma.",
+        "image": "https://images.unsplash.com/photo-1607260550778-aa9d29444ce1?auto=format&fit=crop&q=80&w=1887&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "id": 1,
+        "price": 3000,
+        "type": "cafe"
+    },
+    {
+        "title": "Caramel Latte",
+        "description": "Si le gustan los cafés con leche con un sabor especial, los cafés con leche y caramelo pueden ser la mejor opción para experimentar el dulzor natural y la cremosidad de la leche vaporizada y el caramelo.",
+        "image": "https://images.unsplash.com/photo-1561882468-9110e03e0f78?auto=format&fit=crop&q=60&w=800&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGxhdHRlfGVufDB8fDB8fHww",
+        "id": 2,
+        "price": 2300,
+        "type": "cafe"
+    },
+    {
+        "title": "Cappuccino",
+        "description": "El capuchino es un café con leche preparado con más espuma que leche al vapor, a menudo con una pizca de cacao en polvo o canela por encima. A veces se pueden encontrar variaciones que utilizan nata en lugar de leche o que también añaden aromatizantes.",
+        "image": "https://images.unsplash.com/photo-1557006021-b85faa2bc5e2?auto=format&fit=crop&q=80&w=1887&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "id": 3,
+        "price": 2940,
+        "type": "cafe"
+    },
+    {
+        "title": "Americano",
+        "description": "Con un sabor similar al del café solo, el americano consiste en un chupito de espresso diluido en agua caliente.",
+        "image": "https://images.unsplash.com/photo-1532004491497-ba35c367d634?auto=format&fit=crop&q=80&w=1887&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "id": 4,
+        "price": 1990,
+        "type": "cafe"
+    },
+    {
+        "title": "Islatte Mocha",
+        "description": "Iced latte Mocha es una combinación de latte y mocha, que a su vez es una combinación de chocolate y café. Ofrece a los amantes de las bebidas frías una deliciosa experiencia de chocolate y café.",
+        "image": "https://images.unsplash.com/photo-1607260550778-aa9d29444ce1?auto=format&fit=crop&q=80&w=1887&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "id": 5,
+        "price": 3000,
+        "type": "cafeFrio"
+    },
+    {
+        "title": "Frapino Caramel",
+        "description": "Es un café mezclado o, mejor dicho, batido, con nata montada por encima. Imprescindible para los calurosos días de verano.",
+        "image": "https://images.unsplash.com/photo-1561882468-9110e03e0f78?auto=format&fit=crop&q=60&w=800&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGxhdHRlfGVufDB8fDB8fHww",
+        "id": 6,
+        "price": 3200,
+        "type": "cafeFrio"
+    },
+    {
+        "title": "Frapino Mocha",
+        "description": "Otra famosa y deliciosa bebida fría para los que prefieren el chocolate. Imagine el sabor de un batido con chocolate y nata montada por encima.",
+        "image": "https://images.unsplash.com/photo-1557006021-b85faa2bc5e2?auto=format&fit=crop&q=80&w=1887&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "id": 7,
+        "price": 2950,
+        "type": "cafeFrio"
+    },
+    {
+        "title": "Islatte",
+        "description": "El latte helado es una bebida de café fría que se prepara mezclando espresso y leche fría. Se sirve con cubitos de hielo y también se conoce como café con leche helado o café con leche con hielo.",
+        "image": "https://images.unsplash.com/photo-1532004491497-ba35c367d634?auto=format&fit=crop&q=80&w=1887&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "id": 8,
+        "price": 2100,
+        "type": "cafeFrio"
+    },
+    {
+        "title": "Jugo de manzana",
+        "description": "bebida dulce y ligera, elaborada con manzanas frescas. Rica en vitaminas y fibra, perfecta para refrescarse y acompañar comidas o meriendas, disfrutando de un sabor suave y natural.",
+        "image": "https://images.unsplash.com/photo-1607260550778-aa9d29444ce1?auto=format&fit=crop&q=80&w=1887&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "id": 9,
+        "price": 2100,
+        "type": "jugoFrutal"
+    },
+    {
+        "title": "Limonada congelada",
+        "description": "La limonada helada es una bebida refrescante de verano que combina zumo de limón recién exprimido, hielo y edulcorante para crear una sensación de sabor refrescante, ácido y agridulce.",
+        "image": "https://images.unsplash.com/photo-1561882468-9110e03e0f78?auto=format&fit=crop&q=60&w=800&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGxhdHRlfGVufDB8fDB8fHww",
+        "id": 10,
+        "price": 1750,
+        "type": "jugoFrutal"
+    },
+    {
+        "title": "Limonada",
+        "description": "Conocida por primera vez en París y luego muy popular en toda Europa, esta bebida dulce, incolora y carbonatada se elabora mezclando zumo de limón y agua con gas.",
+        "image": "https://images.unsplash.com/photo-1557006021-b85faa2bc5e2?auto=format&fit=crop&q=80&w=1887&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "id": 11,
+        "price": 1600,
+        "type": "jugoFrutal"
+    },
+    {
+        "title": "Jugo de naranja",
+        "description": "bebida refrescante y nutritiva, obtenida al exprimir naranjas frescas. Rica en vitamina C, antioxidantes y minerales, ideal para hidratarse y fortalecer el sistema inmunológico. Perfecta para el desayuno o cualquier momento del día.",
+        "image": "https://images.unsplash.com/photo-1532004491497-ba35c367d634?auto=format&fit=crop&q=80&w=1887&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "id": 12,
+        "price": 1950,
+        "type": "jugoFrutal"
+    }
+]
