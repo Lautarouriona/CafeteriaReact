@@ -1,0 +1,197 @@
+
+.cont.text-center .row {
+    display: flex;
+    width: 100%;
+    gap: 30px;
+    justify-content: center;
+}
+
+.cont .menu .items{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 50px;
+}
+
+.cont.text-center .col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 70px;
+    max-width: 185px;
+    padding: 10px;
+    border-radius: 50%;
+    transition: all .1s;
+    cursor: pointer;
+}
+
+/* Color del primer icono */
+.cont.text-center .col:nth-child(1){
+    background-color: #4e2f13;
+    color: #a3a3a3;
+}
+.cont.text-center .col:nth-child(1):hover {
+    background: #6b3a11;
+}
+
+/* Color del segundo icono */
+.cont.text-center .col:nth-child(2){
+    background-color: #89D3E3;
+}
+.cont.text-center .col:nth-child(2):hover {
+    background: #68c3df;
+}
+
+/* Color del tercer icono */
+.cont.text-center .col:nth-child(3){
+    background-color: #ee9f54;
+}
+.cont.text-center .col:nth-child(3):hover {
+    background: #ee8c31;
+}
+
+
+.img-text {
+    font-size: 18px;
+}
+
+
+.cont.text-center{
+    /* width: 1900px; */
+    /* width: 1800px !important; */
+    /* background-color: red; */
+    
+}
+
+.cont.text-center .menu{
+    /* background-color: green; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cont.text-center .menu .menu-content{
+    width: 80%;
+}
+
+.menu-header{
+    /* background-color: blue; */
+    width: 100%;
+    height: 10px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.menu-header .menu-title{
+    position:absolute;
+    top: -40px;
+    left: 300px;
+}
+
+.menu-header .menu-icono{
+    position:absolute;
+    top: 0;
+    left: 200px;
+    transform: translate(-50%,-50%);
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.menu-header .menu-icono img{
+    width: 100px;
+}
+
+.menu-header.cafe{
+    background-color: #AF7026;
+}
+
+.menu-header.cafeFrio{
+    background-color: #4992D4;
+}
+
+.menu-header.jugo{
+ background-color: #F6E54B;
+}
+    
+
+.menu-header.cafe .menu-icono{
+    background-color: #3E2611;
+}
+
+.menu-header.cafeFrio .menu-icono{
+    background-color: #89D3E3;
+}
+
+.menu-header.jugo .menu-icono{
+    background-color: #E39F60;
+}
+
+ .menu-titulo{
+    margin: 150px 0px 50px 50px !important;
+}
+
+.cont .menu .cart{
+    background-color: #F3EADC;
+    width: 20%;
+    height: 700px;
+    margin-top: 100px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cont .menu .cart .total-cart, .cont .menu .cart .reset-cart{
+    background-color: #B5855B;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 0px 10px;
+}
+.cont .menu .cart .reset-cart{
+    background-color: #f16161;
+}
+
+.cont .menu .cart .cart-title{
+    margin: 12px 0px;
+}
+
+.cont .menu .cart .cart-list{
+    list-style:none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 0px 18px;
+}
+
+.cont .menu .cart .cart-list li{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    font-weight: 500;
+    justify-content: space-between;
+}
+
+.cont .menu .cart .cart-list li span{
+    display: inline-block;
+}
+
+.cont .menu .cart .cart-total{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 24px;
+}
+
+.cont .menu .cart .cart-total .total-price{
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
