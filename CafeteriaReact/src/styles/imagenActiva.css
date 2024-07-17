@@ -14,6 +14,7 @@
 
 .container-imagen-activa img {
     height: 90%;
+    border-radius: 2px;
 }
 
 .container-botones {

@@ -1,3 +1,7 @@
+.contenedor-menues {
+    max-width: 1120px;
+    margin: 0 auto;
+}
 
 .cont.text-center .row {
     display: flex;

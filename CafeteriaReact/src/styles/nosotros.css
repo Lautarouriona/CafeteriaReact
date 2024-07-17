@@ -1,9 +1,29 @@
+.contenedor-nosotros {
+    max-width: 1120px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 24px;
+    /* border: solid 1px var(--marronClaro);
+    border-radius: 4px; */
+}
+
 .contenedor-img-nosotros {
     height: 608px;
 }
 
 .contenedor-img-nosotros img {
     height: 100%;
+    border-radius: 2px;
+}
+
+.contenedor-descripcion-nosotros h2 {
+    width: 100%;
+    text-align: start;
+}
+
+.contenedor-descripcion-nosotros iframe {
+    width: 100%;
 }
 
 .descripcion-nosotros {

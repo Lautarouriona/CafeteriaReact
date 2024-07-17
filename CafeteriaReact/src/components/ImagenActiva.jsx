@@ -4,7 +4,7 @@ import '../styles/imagenActiva.css'
 function ImagenActiva({ imagen, idImg, setIdImg, isActive, setIsActive }) {
   return (
     <div className={`container-imagen-activa ${isActive ? '' : 'oculto'}`}>
-      <img src={imagen} alt='' />
+      <img src={imagen} alt={`Imagen número ${idImg}`} />
       <div className='container-botones'>
         <button
           type='button'

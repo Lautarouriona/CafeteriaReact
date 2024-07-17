@@ -54,7 +54,7 @@ function Menu() {
   }
 
   return (
-    <>
+    <section className='contenedor-menues'>
       <h2 className="fuente-principal mb-4 menu-titulo"> Nuestros menúes </h2>
       <div className="cont text-center">
         <div className="row">
@@ -109,7 +109,7 @@ function Menu() {
         </div>
 
       </div>
-    </>
+    </section>
   );
 }
 
