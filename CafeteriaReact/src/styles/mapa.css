@@ -1,0 +1,25 @@
+.contenedor-contacto-mapa {
+    max-width: 1120px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedor-contacto {
+    width: 50%;
+}
+
+.contenedor-contacto h2 {
+    border-bottom: solid 2px var(--marronOscuro);
+}
+
+.contenedor-iframe {
+    background-color: aqua;
+    width: 512px;
+    height: 256px;
+}
+
+iframe {
+    height: 100%;
+    width: 100%;
+}
