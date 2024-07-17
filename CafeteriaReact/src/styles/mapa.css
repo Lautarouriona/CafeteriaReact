@@ -1,0 +1,15 @@
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    height: 100%; 
+  }
+  
+  .text-group {
+    margin-top: 20px;
+  }
+  
+  .text-group p {
+    margin: 15px 0; /* Aumenta el margen vertical entre párrafos */
+  }
+  
