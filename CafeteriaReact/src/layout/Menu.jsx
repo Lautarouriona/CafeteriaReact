@@ -21,6 +21,7 @@ function Menu() {
   }
 
   const itemClickHandle = (e) => {
+    console.log('hola')
     e.preventDefault()
     const id = e.target.id
     let cantidad = e.target.form.querySelector('input').value
@@ -55,24 +56,18 @@ function Menu() {
 
   return (
     <section className='contenedor-menues'>
-      <h2 className="fuente-principal mb-4 menu-titulo"> Nuestros menúes </h2>
-      <div className="cont text-center">
+      <h2 className="fuente-principal mb-4 menu-titulo">Nuestros menúes</h2>
+      <div className="container-menues-precios cont text-center">
         <div className="row">
-
           <MenuButton icono={iconoCafe} alt="imagen de cafe caliente" text="Café caliente" click={()=>onClickHandle("cafe",{title:'Cafés calientes', clase:"cafe", icono: iconoCafe, alt:"imagen de cafe caliente"})}/>
           <MenuButton icono={iconoCafeFrio} alt="imagen de cafe frio" text="Café frío" click={()=>onClickHandle("cafeFrio",{title:'Cafés fríos', clase:"cafeFrio", icono: iconoCafeFrio, alt:"imagen de cafe frío"})}/>
           <MenuButton icono={iconoJugo} alt="imagen de jugo frutal" text="Jugo frutal" click={()=>onClickHandle("jugoFrutal",{title:'Jugos frutales', clase:"jugo", icono: iconoJugo, alt:"imagen de jugo frutal"})}/>
-
         </div>
-
-
           
+        <MenuHeader {...menuHeader}/>
+
         <div className='menu'>
-
           <div className='menu-content'>
-
-            <MenuHeader {...menuHeader}/>
-
             <div className='items'>
               {
                 menu.map(bebida => {
@@ -80,19 +75,18 @@ function Menu() {
                 })
               }
             </div>
-
           </div>
 
           <aside className='cart'>
             <div className='cart-detail'>
-              <h3 className='cart-title'>Añadidos al carrito</h3>
+              <h3 className='cart-title'>Carrito de compras</h3>
               <ul className='cart-list'>
                 {
                   carrito.map(bebida => {
                     return <li key={bebida.id}>
-                      <span className='cantidad'>x{bebida.cantidad}</span>
-                      <span className='bebida-title'>{bebida.title}</span>
-                      <span className='bebida-price'>${bebida.price*bebida.cantidad} (${bebida.price})</span>
+                      <span className='cantidad'>x{bebida.cantidad} </span>
+                      <span className='bebida-title'>{bebida.title} </span>
+                      <span className='bebida-price'><b>${bebida.price*bebida.cantidad}</b> (${bebida.price})</span>
                     </li>
                   })
                 }
@@ -100,14 +94,12 @@ function Menu() {
             </div>
 
             <div className='cart-total'>
-              <span className='total-price'>${totalCarrito}</span>
+              <span className='total-price'>Total: ${totalCarrito}</span>
               <button className='total-cart' onClick={()=>{totalHandle()}}>Calcular total</button>
               <button className='reset-cart' onClick={()=>{resetCartHandle()}}>Borrar carrito</button>
             </div>
           </aside>
-
         </div>
-
       </div>
     </section>
   );

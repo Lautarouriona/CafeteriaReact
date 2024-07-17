@@ -27,7 +27,7 @@ export default function Galeria() {
   }, []);
 
   return (
-    <section className='container-galeria'>
+    <section className='container-galeria mb-4'>
       <h2 className='fuente-principal titulo-galeria'>Galería</h2>
 
       <ul className='container-imagenes-galeria'>
