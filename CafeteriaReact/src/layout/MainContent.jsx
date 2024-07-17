@@ -4,6 +4,7 @@ import Mapa from '../components/Mapa'
 import Tutoriales from '../components/Tutoriales'
 
 
+
 function MainContent() {
   return (
     <>

@@ -13,7 +13,6 @@ export default function Tutoriales() {
     <>
         <Container>
         <h2 className='fuente-principal titulo-galeria'>Aprende estas recetas y tecnicas en tu casa!</h2>
-
           <Row>
                 {images.map((image, index) => (
                     <Col key={index} md={6} className="mb-4">
