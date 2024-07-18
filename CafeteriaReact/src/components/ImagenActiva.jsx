@@ -5,7 +5,7 @@ function ImagenActiva({ imagen, idImg, setIdImg, isActive, setIsActive, nombreCa
   return (
     <div className={`container-imagen-activa ${isActive ? '' : 'oculto'}`}>
       <div className='container-imagen'>
-        <img src={imagen} alt={`Imagen número ${idImg}`} />
+        <img src={imagen} alt={`Imagen de ${nombreCafe}`} />
         <div className='container-contador'>
           <p className='contador'>{`${idImg}/16`}</p>
           <p className='nombre'>{nombreCafe}</p>
