@@ -63,13 +63,19 @@
     color: #AFAFAF;
 }
 
-.contenedor-cantidad-precio button{
+.contenedor-cantidad-precio form button {
     background-color: white;
     border: 1px solid var(--marronOscuro);
     color: var(--marronOscuro);
-    height: 36px;
     font-weight: bold;
     border-radius: 4px;
+    font-size: 16px;
+    transition: all 0.2s ease;
+}
+
+.contenedor-cantidad-precio form button:hover {
+    background-color: var(--marronOscuro);
+    color: white;
 }
 
 .contenedor-info {

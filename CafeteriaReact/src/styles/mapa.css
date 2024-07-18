@@ -1,12 +1,9 @@
 .contenedor-contacto-mapa {
     max-width: 1120px;
     margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-}
-
-.contenedor-contacto {
-    width: 52%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 24px;
 }
 
 .contenedor-contacto h2 {
@@ -14,7 +11,7 @@
 }
 
 .contenedor-iframe {
-    width: 512px;
+    width: 100%;
     height: 256px;
 }
 

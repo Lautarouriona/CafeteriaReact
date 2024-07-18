@@ -51,8 +51,8 @@ function Menu() {
   }
 
   return (
-    <section className='contenedor-menues mb-4'>
-      <h2 className="fuente-principal mb-4 menu-titulo">Nuestros menús</h2>
+    <section id='menu' className='contenedor-menues mb-4'>
+      <h2 className="fuente-principal mb-4 menu-titulo">Menú</h2>
       <div className="contenedor-menues-precios cont text-center">
         <div className="contenedor-opciones">
           <MenuButton icono={iconoCafe} alt="imagen de cafe caliente" text="Cafés calientes" click={()=>onClickHandle("cafe",{title:'Cafés calientes', clase:"cafe", icono: iconoCafe, alt:"imagen de cafe caliente"})}/>

@@ -1,10 +1,16 @@
 import React from 'react'
 import '../styles/imagenActiva.css'
 
-function ImagenActiva({ imagen, idImg, setIdImg, isActive, setIsActive }) {
+function ImagenActiva({ imagen, idImg, setIdImg, isActive, setIsActive, nombreCafe }) {
   return (
     <div className={`container-imagen-activa ${isActive ? '' : 'oculto'}`}>
-      <img src={imagen} alt={`Imagen número ${idImg}`} />
+      <div className='container-imagen'>
+        <img src={imagen} alt={`Imagen número ${idImg}`} />
+        <div className='container-contador'>
+          <p className='contador'>{`${idImg}/16`}</p>
+          <p className='nombre'>{nombreCafe}</p>
+        </div>
+      </div>
       <div className='container-botones'>
         <button
           type='button'
@@ -28,7 +34,6 @@ function ImagenActiva({ imagen, idImg, setIdImg, isActive, setIsActive }) {
       >
         <i className="bi bi-x-lg"></i>
       </button>
-      <p className='container-contador'>{`${idImg}/16`}</p>
     </div>
   )
 }

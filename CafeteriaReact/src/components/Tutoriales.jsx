@@ -11,21 +11,21 @@ const images = [
 export default function Tutoriales() {
     return (
     <>
-        <Container>
-        <h2 className='fuente-principal titulo-galeria'>Aprende estas recetas y tecnicas en tu casa!</h2>
-          <Row>
-                {images.map((image, index) => (
-                    <Col key={index} md={6} className="mb-4">
-                        <a href={image.link} target="_blank" rel="noopener noreferrer" className="image-link position-relative">
-                            <img src={image.src} alt={image.alt} className="img-fluid square-image" />
-                            <div className="overlay">
-                                <span className="overlay-text">{image.text}</span>
-                            </div>
-                        </a>
-                    </Col>
-                ))}
-            </Row>
-        </Container>
+      <Container>
+      <h2 className='fuente-principal titulo-galeria'>Aprende estas recetas y tecnicas en tu casa!</h2>
+        <Row>
+            {images.map((image, index) => (
+              <Col key={index} md={6} className="mb-4">
+                <a href={image.link} target="_blank" rel="noopener noreferrer" className="image-link position-relative">
+                  <img src={image.src} alt={image.alt} className="img-fluid square-image imagen-enlace" />
+                  <div className="overlay">
+                      <span className="overlay-text">{image.text}</span>
+                  </div>
+                </a>
+              </Col>
+            ))}
+        </Row>
+      </Container>
     </>
     );
 

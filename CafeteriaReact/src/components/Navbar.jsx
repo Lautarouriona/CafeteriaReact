@@ -5,7 +5,7 @@ import '../styles/navbar.css';
 
 function Navbar() {
   return (
-    <nav className='container-navbar px-5 py-2'>
+    <nav id='homepage' className='container-navbar px-5 py-2'>
       <a href='#' className='enlace-logo'>
         <img className='imagen-logo' src={logo} alt='Logo Espresso Armonía' />
         <h3 className='fuente-principal'>Espresso Armonía</h3>
@@ -13,7 +13,7 @@ function Navbar() {
 
       <div className='container-nav-links'>
         <Link className='link-navbar' to='nosotros' smooth={true} duration={500}>Nosotros</Link>
-        <Link className='link-navbar' to='menu' smooth={true}  duration={500}>Menu</Link>
+        <Link className='link-navbar' to='menu' smooth={true}  duration={500}>Menú</Link>
         <Link className='link-navbar' to='contacto' smooth={true} duration={500}>Contacto</Link>
       </div>
     </nav>
