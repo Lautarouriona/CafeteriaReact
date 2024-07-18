@@ -12,9 +12,25 @@
     z-index: 2;
 }
 
-.container-imagen-activa img {
+.container-imagen {
     height: 90%;
     border-radius: 2px;
+    position: relative;
+}
+
+.container-imagen img {
+    height: 100%;
+}
+
+.container-contador {
+    position: absolute;
+    top: 0;
+    left: 8px;
+    right: 8px;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .container-botones {
@@ -60,14 +76,6 @@
 .bi-chevron-right:hover,
 .bi-x-lg:hover {
     color: white;
-}
-
-.container-contador {
-    position: absolute;
-    top: 32px;
-    left: 36.6%;
-    color: white;
-    font-size: 20px;
 }
 
 .oculto {

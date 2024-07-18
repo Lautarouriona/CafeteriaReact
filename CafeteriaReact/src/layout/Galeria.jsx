@@ -5,12 +5,6 @@ import ImagenActiva from '../components/ImagenActiva';
 
 const imgs_url = 'https://api.sampleapis.com/coffee/hot';
 
-/* async function getCafes() {
-  const res = await fetch(imgs_url);
-  const data = await res.json();
-  return data;
-} */
-
 export default function Galeria() {
   const [cafes, setCafes] = useState([]);
   const [idImg, setIdImg] = useState(1);
@@ -27,7 +21,7 @@ export default function Galeria() {
   }, []);
 
   return (
-    <section className='container-galeria'>
+    <section className='container-galeria mb-4'>
       <h2 className='fuente-principal titulo-galeria'>Galería</h2>
 
       <ul className='container-imagenes-galeria'>
@@ -45,7 +39,7 @@ export default function Galeria() {
         }
       </ul>
 
-      <ImagenActiva imagen={cafes.find(cafe => cafe.id === idImg)?.image} idImg={idImg} setIdImg={setIdImg} isActive={isActive} setIsActive={setIsActive} />
+      <ImagenActiva nombreCafe={cafes.find(cafe => cafe.id === idImg)?.title} imagen={cafes.find(cafe => cafe.id === idImg)?.image} idImg={idImg} setIdImg={setIdImg} isActive={isActive} setIsActive={setIsActive} />
     </section>
   )
 }
