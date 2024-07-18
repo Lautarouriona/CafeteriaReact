@@ -1,12 +1,32 @@
-import React from 'react';
-import about_us_bg from '../img/about_us_background.png';
+import React, { useState } from 'react';
 import '../styles/nosotros.css'
 
 function Nosotros() {
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+  const images = [
+    '../../imagenes/nosotros_1.jpg',
+    '../../imagenes/nosotros_2.jpg',
+    '../../imagenes/nosotros_3.jpg',
+    '../../imagenes/nosotros_4.jpg',
+    '../../imagenes/nosotros_5.jpg'
+
+  ];
+
+  const nextImage = () => {
+    setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
+  };
+
+  const prevImage = () => {
+    setCurrentImageIndex((prevIndex) => (prevIndex - 1 + images.length) % images.length);
+  };
+
   return (
-    <section className='contenedor-nosotros mb-4'>
+    <section id="nosotros" className='contenedor-nosotros mb-4'>    
       <div className='contenedor-img-nosotros d-flex justify-content-center'>
-        <img src={about_us_bg} alt='Imagen quiénes somos' />
+        <button onClick={prevImage}>◀</button>
+        <img src={images[currentImageIndex]} alt={`Imagen ${currentImageIndex + 1}`} />
+        <button onClick={nextImage}>▶</button>
       </div>
       <div className='contenedor-descripcion-nosotros d-flex flex-column justify-content-center align-items-center'>
         <h2 className='fuente-principal mb-3'>¿Quiénes somos?</h2>
