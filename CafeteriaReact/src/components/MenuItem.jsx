@@ -10,7 +10,7 @@ function MenuItem(props) {
         </div>
 
         <div className='contenedor-cantidad-precio'>
-          <p>$ {props.price}</p>
+          <p>${props.price}</p>
           <form>
             <input type='number' min={1} placeholder='Cantidad' />
             <button type='button' id={props.id} onClick={props.click}>Añadir</button>

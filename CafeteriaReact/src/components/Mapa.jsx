@@ -3,7 +3,7 @@ import '../styles/mapa.css';
 
 export default function Mapa() {
   return (
-    <div className="contenedor-contacto-mapa no-gutters mt-5">
+    <div className="contenedor-contacto-mapa mb-4">
       <div className="contenedor-contacto">
           <h2 className='fuente-principal mb-3'>Contacto</h2>
           <p className='mb-2'><strong>Dirección:</strong> Av.Córdoba 975 CABA, 1054</p>

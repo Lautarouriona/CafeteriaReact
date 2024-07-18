@@ -3,14 +3,10 @@ import React from 'react';
 function MenuButton(props) {
 
   return (
-    <>
-
-          <div className="col" onClick = {props.click}>
-            <img src={props.icono} alt={props.alt} />
-            <p className="img-text">{props.text}</p>
-          </div>
-
-    </>
+    <div className="col contenedor-opcion" onClick = {props.click}>
+      <img className='imagen-opcion' src={props.icono} alt={props.alt} />
+      <p className="texto-opcion">{props.text}</p>
+    </div>
   );
 }
 

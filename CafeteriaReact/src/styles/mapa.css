@@ -6,7 +6,7 @@
 }
 
 .contenedor-contacto {
-    width: 50%;
+    width: 52%;
 }
 
 .contenedor-contacto h2 {
@@ -14,7 +14,6 @@
 }
 
 .contenedor-iframe {
-    background-color: aqua;
     width: 512px;
     height: 256px;
 }
@@ -22,4 +21,5 @@
 iframe {
     height: 100%;
     width: 100%;
+    border-radius: 2px;
 }
