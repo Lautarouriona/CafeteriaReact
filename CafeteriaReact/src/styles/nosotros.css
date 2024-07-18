@@ -29,3 +29,11 @@
 .descripcion-nosotros {
     font-size: 18px;
 }
+button {
+    background-color: rgb(207, 187, 187);
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  
+ 

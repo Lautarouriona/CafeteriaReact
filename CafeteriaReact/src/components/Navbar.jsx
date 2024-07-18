@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 import logo from '../img/coffee_logo.png'
 import '../styles/navbar.css';
 
@@ -11,9 +12,9 @@ function Navbar() {
       </a>
 
       <div className='container-nav-links'>
-        <a className='link-navbar' href='#'>Nosotros</a>
-        <a className='link-navbar' href='#'>Menúes</a>
-        <a className='link-navbar' href='#'>Contacto</a>
+        <Link className='link-navbar' to='nosotros' smooth={true} duration={500}>Nosotros</Link>
+        <Link className='link-navbar' to='menu' smooth={true}  duration={500}>Menu</Link>
+        <Link className='link-navbar' to='contacto' smooth={true} duration={500}>Contacto</Link>
       </div>
     </nav>
   );
