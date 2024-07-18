@@ -1,11 +1,11 @@
 import React from 'react'
-import '../styles/navbar.css';
+import '../styles/mapa.css';
 
 
 export default function Mapa() {
   return (
-    <div className="row no-gutters">
-      <div className="col-md-7 p-5 text-container">
+    <div id="contacto" className="row no-gutters">
+      <div className="col-md-6 p-5 text-container">
         <h2 className="text-center">Contactos</h2>
         <div className="text-group mb-5">
           <p><strong>Dirección:</strong> Av. Córdoba 975 CABA, 1054</p>
