@@ -40,17 +40,21 @@ Sigue estos pasos para clonar e instalar el proyecto en tu máquina local:
     ```bash
     npm install
 
-4. **Instalar react-scroll**
+4. **Instalar Vite como una dependencia de desarrollo**
+    ```bash
+    npm install --save-dev vite
+
+5. **Instalar react-scroll**
 
     ```bash
     npm install react-scroll
 
     
-5. **Iniciar el servidor de desarrollo**
+6. **Iniciar el servidor de desarrollo**
     ```bash
     npm run dev
 
-6. **Abrir en el navegador**
+7. **Abrir en el navegador**
 
 
 
